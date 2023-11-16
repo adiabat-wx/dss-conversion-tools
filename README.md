@@ -1,7 +1,7 @@
 # dss-conversion-tools
 Programatic export from DSS to GeoTIFF
 
-Adjustments can be made to export to NetCDF 
+Adjustments can be made to export to NetCDF by implementing NetcdfDataWriter in place of TiffDataWriter
 
 Utilizing the Vortex-API from HEC Vortex:  
 Source: https://github.com/HydrologicEngineeringCenter/Vortex
@@ -12,7 +12,6 @@ REQUIREMENTS:
 - Hec-Vortex: https://github.com/HydrologicEngineeringCenter/Vortex/releases
 - Java 64-bit: https://www.oracle.com/java/technologies/downloads/
 - Jython: https://www.jython.org/index
-
 
 DISCLAIMER: 
 The author makes no representations or warranties of any kind, express or implied,
