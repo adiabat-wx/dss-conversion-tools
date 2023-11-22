@@ -3,7 +3,7 @@ from mil.army.usace.hec.vortex.io import DataReader, DssDataReader
 
 # Specify the path to .dss file 
 OUT_P = 'C:/tif_files'
-dss_fp = 'C:/dss_files/precip_20180505.dss'
+dss_fp = 'C:/dss_files/precip_obs_20180505.dss'
 
 # Get dss pathnames
 sourceGrids = DataReader.getVariables(dss_fp)
